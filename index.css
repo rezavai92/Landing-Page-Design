@@ -100,12 +100,13 @@ color:white;
     width: 25%;
     background-color: purple;
     text-align: center;
+    color: white;
 }
 .flex-img img {
     width: 100%;
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 480px) {
     .section-2 .flex {
       
       display: flex;  

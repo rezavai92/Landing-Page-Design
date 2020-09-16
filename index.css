@@ -51,12 +51,14 @@ body{
     
     color: white;
     border: 1px solid white;
-   width: 95px;
+    width: 95px;
+    height: 45px;
     
-   padding: 15px 0px 15px 15px;
     text-decoration: none;
     margin-left: 45%;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 .button a:link{

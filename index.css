@@ -1,0 +1,175 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    background-color: black;
+    opacity: 0.9;
+       
+}
+.cover{
+    width: 100%;
+    height: 80vh;
+    background-color: black;
+    opacity: 1;
+    position: relative;
+}
+.bg-img{
+
+    background: url("https://static.pexels.com/photos/248515/pexels-photo-248515.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    height: 100%;
+    z-index: -4;
+    opacity: 0.5;
+    
+    
+}
+.cover-write{
+    position: absolute;
+    top: 25%;
+    text-align: center;
+    color:white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 100%;
+}
+.cover-write h1{
+    color:white;
+   
+    font-size: 40px;
+}
+.cover-write p{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    
+    text-align-last: center;
+
+}
+
+.button{
+    
+    color: white;
+    border: 1px solid white;
+   width: 95px;
+    
+   padding: 15px 0px 15px 15px;
+    text-decoration: none;
+    margin-left: 45%;
+    
+    
+}
+.button a:link{
+    text-decoration: none;
+    
+}
+.button a{
+color:white;
+}
+.grid{
+    color:black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 2fr;
+    background-color: white;
+    justify-content: space-around;
+    
+
+}
+.grid div{
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+}
+
+.item1{
+
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.section-2 .flex{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    
+}
+
+.item{
+    width: 25%;
+    background-color: purple;
+    text-align: center;
+}
+.flex-img img {
+    width: 100%;
+}
+
+@media screen and (max-width: 380px) {
+    .section-2 .flex {
+      
+      display: flex;  
+      flex-wrap: wrap;
+      justify-content: space-around;
+      flex-direction: row;
+      
+    }
+    .item{
+        width: 100%;
+    }
+    .button{
+        margin-left: 35%;
+    }
+  }
+
+  
+  .section3{
+    background-color: white;
+    color : black;
+    text-align: center;
+  }
+  .section3 h1,p{
+      padding: 2.5%;
+  }
+  .last-grid{
+      width: 100%;
+      height: auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      color: white;
+      justify-content: space-between;
+      text-align: center;
+      
+  }
+  .last-grid h2, .last-grid p{
+    max-width: 100%;
+
+  }
+  .last-grid .item1{
+      grid-column-start: 1;
+      grid-column-end: 2;
+      background-color: cyan;
+      color: black;
+  }
+
+  .footer-grid{
+      color:white;
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      justify-content: center;
+      text-align: center;
+  }
+ .footer-grid .last-item{
+     grid-column-start: 1;
+     grid-column-end: 3;
+     color: white;
+ }
+ .footer-grid .last-item a{
+text-decoration: none;
+text-decoration-color: white;
+font-size: 30px;
+ }
+
+ .footer-grid .last-item a:link{
+     color: royalblue;
+ }
